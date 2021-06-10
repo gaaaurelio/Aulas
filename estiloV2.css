@@ -1,0 +1,103 @@
+.td-color {
+    color:rgb(80, 207, 118);
+}
+#DivB{
+    position:relative;
+    border-width:2px;
+    width:50%;
+    height: 100px;
+    background-color: rgb(233, 220, 39);
+    float: left;
+}
+#DivA{
+    position: relative;
+    border-width:2px;
+    width: 50%;
+    height: 100px;
+    background-color: rgb(37, 121, 48);
+    float: left;
+}
+#DivB:hover{
+    position:relative;
+    border-width:2px;
+    width:50%;
+    height: 100px;
+    background-color: rgb(218, 30, 23);
+    float: left;
+}
+#DivA:hover{
+    position: relative;
+    border-width:2px;
+    width: 50%;
+    height: 100px;
+    background-color: rgb(218, 30, 23);
+    float: left;
+}
+
+#div1 {
+    background-color: royalblue;
+    border-radius: 10px;
+    padding: 10px;
+    height: auto;
+    width: 500px;
+  }
+  #div2 {
+    border-radius: 5px;
+    background-color: #40772c;
+    padding: 15px;
+  }
+  #div3 {
+    border-radius: 5px;
+    background-color: #9e5597;
+    padding: 15px;
+  }
+  #div4 {
+    text-align:center;
+    height: 250px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: #c1d86e;
+    padding: 15px;
+  }
+  #div4:hover {
+      background-color: red;
+  }
+#negrito {
+    font-weight: bold;
+    text-shadow: 0 0 0.3em whitesmoke;
+}
+#div5 {
+  border-radius: 5px;
+  background-color: blue;
+  padding: 15px;
+}
+#div5:hover {
+    background-color: orangered;
+}
+li{
+  color: white;
+}
+li:hover{
+  color: black;
+}
+#enviar1{
+  background-color: orangered;
+  border-radius: 15px;
+  border-color: orangered;
+  float: right;
+}
+#login1{
+    background-color: powderblue;
+    border-radius: 10px;
+    padding: 10px;
+    height: 215px;
+    width: 500px;
+}
+#botaologin{
+    float: right;
+}
+#milos{
+    float: right;
+    width: 1000px;
+    height: 700px;
+}

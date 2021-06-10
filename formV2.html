@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- para que serve o lang, para informar a lingua que eu vou utilizar?-->
+<!-- no seu exemplo você colocou em ingles mas poderia ser pt-br?-->
+<head>
+        <meta charset="utf-8">
+        <title>Formulário RPG</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link href="estiloV2.css" rel="stylesheet">
+    </head>
+
+<body>
+    
+    <h1>Criação de Personagem RPG TOP</h1>
+    <h3>Monte seu personagem do SEU jeito! Escolha entre várias opções para criar o seu boneco único!</h3>
+    <br>
+    <!-- Essa parte de criação de conta só esta aqui enquanto não tem outras páginas-->
+    <img src="criesuaconta.gif">
+    <img src="milos.gif" id="milos">
+    <br>
+    <form>
+        <div class="form-group" id="login1">
+          <label for="exampleFormControlInput1" class="form-label" id="negrito">Login</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <small id="emailHelp" class="form-text text-muted">Fique tranquilo, este usuário não será o nome do seu personagem!</small>
+          <br>
+          <label for="exampleFormControlInput1" class="form-label" id="negrito">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" aria-describedby="passwordHelpInline">
+          <small id="passwordHelpInline" class="text-muted">A senha precisa ter entre 8-20 caracteres.</small>
+        <button type="submit" class="btn btn-primary" id="botaologin">Enviar</button>
+    </div>
+      </form>
+    <img src="crieseupersonagem.gif">
+    <br>
+    <div class="mb-3" id="div1">
+        <label for="exampleFormControlInput1" class="form-label" id="negrito">Nome:</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Insira seu nome">
+        <label for="exampleFormControlTextarea1" class="form-label" id="negrito">Data:</label>
+            <input type="date" class="form-control" id="exampleFormControlInput1">
+        <br>
+        <label for="exampleFormControlInput1" class="form-label" id="negrito"> Sexo:</label>
+            <input type="radio" id="male" name="genero">
+        <label for="exampleFormControlInput1" class="form-label" id="negrito">Masculino</label>
+            <input type="radio" id="female" name="genero">
+        <label for="exampleFormControlInput1" class="form-label" id="negrito">Feminino</label>
+        <br>
+        <br>
+        <label for="exampleFormControlInput1" class="form-label" id="negrito"> Cidade Natal: </label>
+            <select name="local1" id="loca1">
+                <option disabled selected value>  </option> <!-- entender mais aqui -->
+                <option value="Prontera">Prontera</option>
+                <option value="Izlude">Izlude</option>
+                <option value="Geffen">Geffen</option>
+                <option value="Alberta">Alberta</option>
+                <option value="Payon">Payon</option>
+            </select>
+        <br>
+        <br>
+        <label for="exampleFormControlInput1" class="form-label" id="negrito">Atributos:</label>
+        <br>
+            <input type="checkbox" id="str"><!-- name="str" value="Força"-->
+                <label for="exampleFormControlInput1" class="form-label" id="negrito">Força</label>
+            <br>
+            <input type="checkbox" id="agi"><!--  name="agi" value="Agilidade" -->
+                <label for="exampleFormControlInput1" class="form-label" id="negrito">Agilidade</label>
+            <br>
+            <input type="checkbox" id="vit"><!-- name="vit" value="Vitalidade"-->
+                <label for="exampleFormControlInput1" class="form-label" id="negrito">Vitalidade</label>
+            <br>
+            <input type="checkbox" id="int"><!--name="int" value="Inteligencia"-->
+                <label for="exampleFormControlInput1" class="form-label" id="negrito">Inteligência</label>
+            <br>
+            <input type="checkbox" id="dex"><!-- name="dex" value="Dextreza"-->
+                <label for="exampleFormControlInput1" class="form-label" id="negrito">Dextreza</label>
+            <br>
+            <input type="checkbox" id="luk"><!--name="luk" value="Sorte"-->
+                <label for="exampleFormControlInput1" class="form-label" id="negrito">Sorte</label>
+      </div>
+    
+
+    <label for="color1"> Cor da Idade: </label>
+    <input type="color" id="color1">
+
+    <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Curso</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Gabriel</td>
+            <td class="td-color">24</td>
+            <td>Programação</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Ramiro</td>
+            <td class="td-color">23</td>
+            <td>Rei</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Milena</td> <!-- Aqui tinha um colspan"2", que era pra ficar em colunas, correto?-->
+            <td class="td-color">23</td>
+            <td>Direito</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="mb-3" id="div1">
+        <label for="exampleFormControlInput1" class="form-label" id="negrito">Nome:</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Insira seu nome">
+        <label for="exampleFormControlTextarea1" class="form-label" id="negrito">Sobrenome:</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Insira seu sobrenome">
+      </div>
+      <br>    
+      <div class="mb-3" id="div2">
+        <label for="exampleFormControlTextarea1" class="form-label" id="negrito">Área de texto</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"placeholder="Insira seu texto"></textarea>
+      </div>
+      <br>
+      <div class="mb-3" id="div3">
+        <label for="exampleFormControlTextarea1" class="form-label" id="negrito">Área de texto</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"placeholder="Insira seu outro texto"></textarea>
+        <label for="exampleFormControlTextarea1" class="form-label" id="negrito">Data:</label>
+        <input type="date" class="form-control" id="exampleFormControlInput1">
+      </div>
+      <div class="mb-3" id="div4">
+        <label for="exampleFormControlTextarea1" class="form-label" id="negrito">Div que muda de cor!</label>
+      </div>
+
+      <div>
+        <div id="DivA"></div>
+        <div id="DivB"></div>
+    </div>
+    <br>
+    <br>
+    <div class="mb-3" id="div5">
+    <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
+    </div>
+</body>
+
+</html>
